@@ -3,11 +3,9 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  {
-    'RedsXDD/neopywal.nvim',
-    name = 'neopywal',
-    lazy = false,
-    priority = 1000,
-    opts = {},
-  },
+  'RedsXDD/neopywal.nvim',
+  name = 'neopywal',
+  lazy = false,
+  priority = 1000,
+  opts = {},
 }
